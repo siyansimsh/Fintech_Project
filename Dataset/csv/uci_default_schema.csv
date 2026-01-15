@@ -1,0 +1,34 @@
+column,dtype,description
+LIMIT_BAL,int64,給定信用額度（包含個人與家庭額度），單位：新台幣
+SEX,category,性別（1 = 男性，2 = 女性）
+EDUCATION,category,教育程度（1 = 研究所，2 = 大學，3 = 高中，4 = 其他）
+MARRIAGE,category,婚姻狀況（1 = 已婚，2 = 單身，3 = 其他）
+AGE,int64,年齡（年）
+PAY_0,int64,Sep 2005 還款狀態 (-1 = 準時付款，0 = 無延遲，1~9 = 延遲月數)
+PAY_2,int64,Aug 2005 還款狀態
+PAY_3,int64,Jul 2005 還款狀態
+PAY_4,int64,Jun 2005 還款狀態
+PAY_5,int64,May 2005 還款狀態
+PAY_6,int64,Apr 2005 還款狀態
+BILL_AMT1,int64,Sep 2005 帳單金額（單位：新台幣）
+BILL_AMT2,int64,Aug 2005 帳單金額
+BILL_AMT3,int64,Jul 2005 帳單金額
+BILL_AMT4,int64,Jun 2005 帳單金額
+BILL_AMT5,int64,May 2005 帳單金額
+BILL_AMT6,int64,Apr 2005 帳單金額
+PAY_AMT1,int64,Sep 2005 實際繳款金額（單位：新台幣）
+PAY_AMT2,int64,Aug 2005 實際繳款金額
+PAY_AMT3,int64,Jul 2005 實際繳款金額
+PAY_AMT4,int64,Jun 2005 實際繳款金額
+PAY_AMT5,int64,May 2005 實際繳款金額
+PAY_AMT6,int64,Apr 2005 實際繳款金額
+default payment next month,int64,是否在下個月發生違約（1 = 違約，0 = 正常）
+CREDIT_UTILIZATION,float64,
+BILL_CHANGE_MEAN,float64,
+MAX_DELAY,int64,
+LAST_DELAY,int64,
+RECENT_PAY_RATIO,float64,
+PAYMENT_STD,float64,
+TOTAL_BILL,float64,
+TOTAL_PAY,int64,
+PAY_TO_BILL_RATIO,float64,
