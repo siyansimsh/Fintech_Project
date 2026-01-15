@@ -28,3 +28,9 @@ desktop.ini
 
 # Logs
 *.log
+
+# Office documents (ignore local reports/proposals)
+*.doc
+*.docx
+~$*.doc
+~$*.docx
